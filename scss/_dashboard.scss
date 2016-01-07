@@ -1,0 +1,33 @@
+#top-nav {
+
+	display: block;
+	background-color: #044A42;
+	margin-bottom: 2em;
+	
+	ul {
+		@extend .reset-list;
+	}
+
+	li {
+		float: left;
+	}
+
+	a {
+		color: #eee;
+		padding: 1em;
+		display: inline-block;
+	}
+
+	a:hover {
+		background-color: darken( #3A9188, 10% );
+	}
+	
+	a.active {
+		background-color: #3A9188;
+	}
+
+}
+
+#sidebar {
+
+}
